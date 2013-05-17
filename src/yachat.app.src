@@ -1,0 +1,16 @@
+{application, yachat,
+ [
+  {description, "Yet Another Chat"},  %% Yandex chat ;-)
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ibrowse,
+                  lager,
+                  ranch,
+                  gproc
+                 ]},
+  {mod, { yachat, []}},
+  {env, []}
+ ]}.
